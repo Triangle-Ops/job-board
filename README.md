@@ -3,9 +3,9 @@
 
 - Right now we are working on a tech job board for the Triangle named [Triangle Tech Jobs](triangletechjobs.com)
 
-- If you are interested in more information or in joining our cause, feel free to email us at **<omitted>**
-
-<h3 align="left">Connect with me:</h3>
+<!-- - If you are interested in more information or in joining our cause, feel free to email us at **<omitted>**
+ -->
+<!-- <h3 align="left">Connect with me:</h3> -->
 <p align="left">
 </p>
 
