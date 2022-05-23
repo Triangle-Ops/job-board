@@ -2,6 +2,7 @@
 <h3 align="center">A group of Software Engineers with varying experience levels in Front and Back end software development. We are community taught and help each other learn on the projects that we develop.</h3>
 
 - Right now we are working on a tech job board for the Triangle named [Triangle Tech Jobs](triangletechjobs.com)
+- Current members working on the project: Jay Patel (https://github.com/jmpatel90)
 
 <!-- - If you are interested in more information or in joining our cause, feel free to email us at **<omitted>**
  -->
