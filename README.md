@@ -4,6 +4,8 @@
 <span>Brandon Mitchell - <a href="https://github.com/brandonmitchell217">github.com/brandonmitchell217</a></span>
 <span>Katie Brown - <a href="https://github.com/brandonmitchell217">github.com/katieleebrown</a></span>
 
+<span>Rachel Schipull - <a href="https://github.com/rachelschipull">github.com/rachelschipull</span>
+
 - Right now we are working on a tech job board for the Triangle named [Triangle Tech Jobs](triangletechjobs.com)
 
 <!-- - If you are interested in more information or in joining our cause, feel free to email us at **<omitted>**
