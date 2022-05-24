@@ -1,10 +1,9 @@
 <h1 align="center">Hi, we are Triangle-Ops</h1>
 <h3 align="center">A group of Software Engineers with varying experience levels in Front and Back end software development. We are community taught and help each other learn on the projects that we develop.</h3>
 
-<span>Brandon Mitchell - <a href="https://github.com/brandonmitchell217">github.com/brandonmitchell217</a></span>
-<span>Katie Brown - <a href="https://github.com/brandonmitchell217">github.com/katieleebrown</a></span>
-
-<span>Rachel Schipull - <a href="https://github.com/rachelschipull">github.com/rachelschipull</span>
+<p>Brandon Mitchell - <a href="https://github.com/brandonmitchell217">github.com/brandonmitchell217</a></p>
+<p>Katie Brown - <a href="https://github.com/brandonmitchell217">github.com/katieleebrown</a></p>
+<p>Rachel Schipull - <a href="https://github.com/rachelschipull">github.com/rachelschipull</a></p>
 
 - Right now we are working on a tech job board for the Triangle named [Triangle Tech Jobs](triangletechjobs.com)
 
