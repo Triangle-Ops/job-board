@@ -5,6 +5,7 @@
 <p>Katie Brown - <a href="https://github.com/katieleebrown">github.com/katieleebrown</a></p>
 <p>Rachel Schipull - <a href="https://github.com/rachelschipull">github.com/rachelschipull</a></p>
 <p>Taylor Kelly - <a href="https://github.com/TaylorKellyCodes">github.com/taylorkellycodes</a></p>
+<p>Rob Perry- <a href="https://github.com/robcperry">github.com/robcperry</a></p>
 
 - Right now we are working on a tech job board for the Triangle named [Triangle Tech Jobs](triangletechjobs.com)
 
