@@ -2,7 +2,7 @@
 <h3 align="center">A group of Software Engineers with varying experience levels in Front and Back end software development. We are community taught and help each other learn on the projects that we develop.</h3>
 
 <p>Brandon Mitchell - <a href="https://github.com/brandonmitchell217">github.com/brandonmitchell217</a></p>
-<p>Katie Brown - <a href="https://github.com/brandonmitchell217">github.com/katieleebrown</a></p>
+<p>Katie Brown - <a href="https://github.com/katieleebrown">github.com/katieleebrown</a></p>
 <p>Rachel Schipull - <a href="https://github.com/rachelschipull">github.com/rachelschipull</a></p>
 <p>Taylor Kelly - <a href="https://github.com/TaylorKellyCodes">github.com/taylorkellycodes</a></p>
 
