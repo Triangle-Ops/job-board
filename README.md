@@ -1,12 +1,13 @@
 <h1 align="center">Hi, we are Triangle-Ops</h1>
 <h3 align="center">A group of Software Engineers with varying experience levels in Front and Back end software development. We are community taught and help each other learn on the projects that we develop.</h3>
 
-<p>Brandon Mitchell - <a href="https://github.com/brandonmitchell217">github.com/brandonmitchell217</a></p>
 <p>Katie Brown - <a href="https://github.com/katieleebrown">github.com/katieleebrown</a></p>
-<p>Rachel Schipull - <a href="https://github.com/rachelschipull">github.com/rachelschipull</a></p>
+<p>Allie Castellanos - <a href="https://github.com/AllieGie">github.com/alliegie</a></p>
 <p>Taylor Kelly - <a href="https://github.com/TaylorKellyCodes">github.com/taylorkellycodes</a></p>
-<p>Rob Perry- <a href="https://github.com/robcperry">github.com/robcperry</a></p>
-<p>Allie Castellanos -<a href="https://github.com/AllieGie">github.com/alliegie</a></p>
+<p>Brandon Mitchell - <a href="https://github.com/brandonmitchell217">github.com/brandonmitchell217</a></p>
+<p>Rob Perry - <a href="https://github.com/robcperry">github.com/robcperry</a></p>
+<p>Rachel Schipull - <a href="https://github.com/rachelschipull">github.com/rachelschipull</a></p>
+<p>Kristl Yuen - <a href = https://github.com/kristlyuen>github.com/kristlyuen</a></p>
 
 - Right now we are working on a tech job board for the Triangle named [Triangle Tech Jobs](triangletechjobs.com)
 
