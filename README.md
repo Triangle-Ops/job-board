@@ -5,6 +5,7 @@
 <p>Allie Castellanos - <a href="https://github.com/AllieGie">github.com/alliegie</a></p>
 <p>Taylor Kelly - <a href="https://github.com/TaylorKellyCodes">github.com/taylorkellycodes</a></p>
 <p>Brandon Mitchell - <a href="https://github.com/brandonmitchell217">github.com/brandonmitchell217</a></p>
+<p>Jay Patel - <a href="https://github.com/jmpatel90">github.com/jmpatel90</a></p>
 <p>Rob Perry - <a href="https://github.com/robcperry">github.com/robcperry</a></p>
 <p>Rafael "Q" Quinde - <a href="https://github.com/SafetyVest2789">github.com/SafetyVest2789</a></p>
 <p>Rachel Schipull - <a href="https://github.com/rachelschipull">github.com/rachelschipull</a></p>
