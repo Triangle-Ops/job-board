@@ -1,3 +1,7 @@
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
 /* Box Model Hack */
 * {
      box-sizing: border-box;
@@ -14,29 +18,313 @@
 }
 
 .clear {
-	clear: both;
+     clear: both;
 }
-
-/******************************************
-/* BASE STYLES
-/*******************************************/
 
 body {
-
+     width: 100%;
+     font-family: 'Montserrat', sans-serif;
 }
 
+/* Font and Color Classes */
+.headingFont {
+     font-family: 'Source Sans 3', sans-serif;
+}
+
+.navy {
+     background-color: rgb(5, 21, 23);
+     color: white;
+}
+
+.gray {
+     background-color: rgb(229, 229, 229);
+}
+
+.shadow {
+     box-shadow: 0px 4px 4px rgba(0, 0, 0, 25%);
+}
+
+.bold {
+     font-weight: bold;
+}
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+/* Header */
 header {
+     width: 100%;
+     height: 125px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
 
 }
 
-footer {
+header>img {
+     width: 10%;
+     height: auto;
+     max-height: 125px;
+     max-width: 125px;
+     margin: 2%;
+}
 
+header>nav {
+     width: 30%;
+     display: flex;
+     flex-wrap: nowrap;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.yellowButton {
+     background-color: rgb(216, 165, 33);
+     padding: 3% 10%;
+     margin-right: 3%;
+     border: 2px solid #C4A02F;
+     border-radius: 5%;
+}
+
+/* Main Feature 1 */
+#featureOne {
+     width: 80%;
+     margin: auto;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     margin-bottom: 2%;
+}
+
+#featureOne>h1 {
+     font-size: 4.3rem;
+     margin-bottom: 2%;
+}
+
+#featureOne>h2 {
+     margin-top: 0;
+}
+
+#featureOne>form {
+     width: 60%;
+     height: auto;
+     min-height: 40px;
+     margin: auto;
+     border: 1px solid black;
+     border-radius: 1%;
+     display: flex;
+     justify-content: space-between;
+     align-items: stretch;
+     padding: 1%;
+     margin-bottom: 1%;
+}
+
+#featureOne>form>input,
+#featureOne>form>button {
+     border: none;
+     background-color: white;
+}
+
+#featureOne>form>input {
+     width: 60%;
+     height: auto;
+     padding: 1%;
+}
+
+#featureOne>fieldset {
+     width: 60%;
+     border: none;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 1%;
+}
+
+/* Main Feature 2 */
+#featureTwo,
+#featureThree {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+}
+
+#featureTwo>h2 {
+     font-size: 2.5rem;
+     margin-bottom: 0;
+}
+
+.jobBoxHolder {
+     width: 90%;
+     margin: auto;
+     margin-bottom: 2%;
+}
+
+.jobBox {
+     width: 100%;
+     background-color: white;
+     border: .5px solid black;
+     border-radius: 1%;
+     padding: 2%;
+     justify-content: left;
+     text-align: start;
+     margin: 1%;
+     padding: 0 1%;
+}
+
+.jobDetails {
+     display: flex;
+     flex-direction: row;
+     width: 40%;
+     justify-content: space-between;
+}
+
+.jobDetails>h5 {
+     margin: 0;
+}
+
+/* Main Feature 3 */
+#featureThree {
+     margin: 2%;
+}
+
+.companyLogoHolder {
+     width: 75%;
+     margin: auto;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+}
+
+.companyLogos {
+     width: 25%;
+     min-width: 200px;
+     height: auto;
+}
+
+
+/* Footer */
+footer {
+     width: 100%;
+     height: auto;
+     max-height: 150px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin: auto;
+     padding: 2%;
+}
+
+footer>img {
+     width: 10%;
+     height: auto;
+     max-height: 125px;
+     max-width: 125px;
+}
+
+.footerColumn>h5 {
+     margin: 0;
+}
+
+.footerColumn>ul {
+     padding-left: .5rem;
+}
+
+.footerColumn>ul>li {
+     list-style: none;
+
+}
+
+.footerColumn>ul>li>a {
+     color: white;
+     text-decoration: none;
+     font-size: .8rem;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+@media screen and (max-width: 1000px) {
+     header {
+          height: 100px;
+     }
+
+     header>img {
+          max-height: 100px;
+          width: auto;
+     }
+
+     header>nav {
+          width: 50%;
+     }
+
+     .yellowButton {
+          padding: 2% 8%;
+     }
+
+     #featureOne>h1 {
+          font-size: 3rem;
+     }
+
+     #featureOne>h2 {
+          font-size: 1.25rem;
+     }
+
+     #featureOne>form,
+     #featureOne>fieldset {
+          width: 80%;
+     }
+
+     .jobDetails {
+          width: 50%;
+     }
+}
+
+@media screen and (max-width: 750px) {
+
+     #featureOne>h1,
+     #featureTwo>h2,
+     #featureThree>h2 {
+          font-size: 2.25rem;
+     }
+
+     .jobDetails {
+          width: 70%;
+     }
+
+     footer {
+          padding-top: 2%;
+     }
+
+     footer,
+     footer>img {
+          height: 100px;
+     }
+
+     footer>img {
+          width: auto;
+     }
+
+     footer ul {
+          padding-top: 0;
+          margin-top: 0;
+     }
+}
+
+@media screen and (max-width: 550px) {
+     header>nav {
+          width: 70%;
+     }
+
+     #featureOne>form,
+     #featureOne>fieldset,
+     .jobBoxHolder,
+     .jobDetails,
+     .companyLogoHolder {
+          width: 95%;
+     }
+}
