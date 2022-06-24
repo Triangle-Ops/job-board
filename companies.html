@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is where your description goes">
+    <meta name="keywords" content="one, two, three">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Triangle Tech Jobs</title>
+
+    <!-- external CSS link -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Fonts and Icons -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8745b435ef.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header class="navy shadow">
+        <img src="images/logo-lockup.png"
+            alt="logo for Triangle Tech Jobs, a yellow triangle with three buildings inside">
+        <nav>
+            <a>Jobs</a>
+            <a href="/companies.html">Companies</a>
+            <a class="yellowButton">Sign In</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="addAJob">
+            <!-- <img src="images/word-mark.png" alt="Triangle Tech Jobs"> -->
+            <h1 class="headingFont">Add a New Job Listing</h1>
+
+            <section id="addJobForm" class="shadow">
+                <form method="post">
+                    <section class="formBox">
+                        <label for="jobTitle">Job Title:</label>
+                        <input type="text"  name="jobTitle" placeholder="Software Engineer">
+                    </section>
+    
+                    <section class="formBox">
+                        <!-- Ideally this part of the form auto-populates from the company that is logged in? Adding for now, can update later. -->
+                        <label for="companyName">Company Name:</label>
+                        <input type="text" name="companyName" placeholder="Triangle Ops">
+                    </section>
+    
+                    <section class="formBox">
+                        <!-- Should this be a dropdown to limit to local roles, with a remote option? -->
+                        <label for="location">Job Location:</label>
+                        <input type="text" name="location" placeholder="Raleigh">
+                    </section>
+    
+                    <section class="formBox">
+                        <!-- Should this be a number input or text input?  -->
+                        <label for="salary">Annual Salary:</label>
+                        <input type="number" min="40000" value="80000">
+                    </section>
+                    
+                    <section class="formBox">
+                        <label for="jobDescription">Job Description</label>
+                        <textarea name="jobDescription">Job Description goes here...</textarea>
+                    </section>
+    
+                    <section class="formBox">
+                        <label for="linkToApply">Link to apply to job:</label>
+                        <input type="text" name="linkToApply" placeholder="url here">
+                    </section>
+                    <!-- We probably need to add additional fields for filter options (radio maybe?) and tech stack (also a radio?) -->
+                    
+                </form>
+                <button>Add Job</button>
+            </section>
+            
+        </section>
+
+        <section id="featureTwo" class="gray">
+            <h2 class="headingFont">Your Active Jobs</h2>
+            <!-- We should eventually use this section to display current job descriptions this company has active, with a delete job listing option. -->
+        </section>
+    </main>
+
+    <footer class="navy">
+        <img src="images/logo-lockup.png"
+            alt="logo for Triangle Tech Jobs, a yellow triangle with three buildings inside">
+        <section class="footerColumn">
+            <h5>Triangle Tech Jobs</h5>
+            <ul>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Contact Us</a></li>
+            </ul>
+        </section>
+
+        <section class="footerColumn">
+            <h5>Follow Us</h5>
+            <ul>
+                <li><a href="">Twitter</a></li>
+                <li><a href="">Github</a></li>
+            </ul>
+        </section>
+    </footer>
+
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
