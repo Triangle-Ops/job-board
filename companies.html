@@ -40,42 +40,100 @@
                 <form method="post">
                     <section class="formBox">
                         <label for="jobTitle">Job Title:</label>
-                        <input type="text"  name="jobTitle" placeholder="Software Engineer">
+                        <input type="text" name="jobTitle" placeholder="Software Engineer">
                     </section>
-    
+
                     <section class="formBox">
-                        <!-- Ideally this part of the form auto-populates from the company that is logged in? Adding for now, can update later. -->
-                        <label for="companyName">Company Name:</label>
-                        <input type="text" name="companyName" placeholder="Triangle Ops">
-                    </section>
-    
-                    <section class="formBox">
-                        <!-- Should this be a dropdown to limit to local roles, with a remote option? -->
                         <label for="location">Job Location:</label>
                         <input type="text" name="location" placeholder="Raleigh">
                     </section>
-    
-                    <section class="formBox">
-                        <!-- Should this be a number input or text input?  -->
-                        <label for="salary">Annual Salary:</label>
-                        <input type="number" min="40000" value="80000">
-                    </section>
-                    
-                    <section class="formBox">
-                        <label for="jobDescription">Job Description</label>
-                        <textarea name="jobDescription">Job Description goes here...</textarea>
-                    </section>
-    
+
                     <section class="formBox">
                         <label for="linkToApply">Link to apply to job:</label>
                         <input type="text" name="linkToApply" placeholder="url here">
                     </section>
+
+                    <fieldset>
+                        <legend class="bold">Job Perks:</legend>
+                        <section class="filterOption">
+                            <input type="checkbox" id="remote" name="remote">
+                            <label for="remote">Remote</label>
+                        </section>
+
+                        <section class="filterOption">
+                            <input type="checkbox" id="inPerson" name="inPerson">
+                            <label for="inPerson">In-Person</label>
+                        </section>
+
+                        <section class="filterOption">
+                            <input type="checkbox" id="hybrid" name="hybrid">
+                            <label for="hybrid">Hybrid</label>
+                        </section>
+
+                        <section class="filterOption">
+                            <input type="checkbox" id="flexible" name="flexible">
+                            <label for="flexible">Flexible</label>
+                        </section>
+
+                        <section class="filterOption">
+                            <input type="checkbox" id="fullTime" name="fullTime">
+                            <label for="fullTime">Full Time</label>
+                        </section>
+
+                        <section class="filterOption">
+                            <input type="checkbox" id="partTime" name="partTime">
+                            <label for="partTime">Part Time</label>
+                        </section>
+
+                        <section class="filterOption">
+                            <input type="checkbox" id="contract" name="contract">
+                            <label for="contract">Contract</label>
+                        </section>
+
+                        <section class="filterOption">
+                            <input type="checkbox" id="internship" name="internship">
+                            <label for="internship">Internship</label>
+                        </section>
+
+                        <section class="filterOption">
+                            <input type="checkbox" id="benefits" name="benefits">
+                            <label for="benefits">Benefits</label>
+                        </section>
+                    </fieldset>
+
+                    <!-- Need to update with technologies -->
+                    <fieldset>
+                        <legend class="bold">Tech Stack:</legend>
+                        <section class="filterOption">
+                            <input type="checkbox" id="react" name="react">
+                            <label for="react">React</label>
+                        </section>
+
+                        <section class="filterOption">
+                            <input type="checkbox" id="" name="">
+                            <label for=""></label>
+                        </section>
+                    </fieldset>
+
+                    <!-- Need to update with all tech roles possible -->
+                    <fieldset>
+                        <legend class="bold">Job Role:</legend>
+                        <section class="filterOption">
+                            <input type="checkbox" id="developer" name="developer">
+                            <label for="remote">Software Developer</label>
+                        </section>
+
+                        <section class="filterOption">
+                            <input type="checkbox" id="" name="">
+                            <label for=""></label>
+                        </section>
+                    </fieldset>
                     <!-- We probably need to add additional fields for filter options (radio maybe?) and tech stack (also a radio?) -->
-                    
+
                 </form>
                 <button>Add Job</button>
             </section>
-            
+
         </section>
 
         <section id="featureTwo" class="gray">
