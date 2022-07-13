@@ -1,0 +1,25 @@
+{
+  "name": "triangle-tech-jobs",
+  "version": "1.0.0",
+  "description": "job board created by triangle ops to serve the tech community in the triangle nc",
+  "main": "server.js",
+  "scripts": {
+    "start": "node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robcperry/job-board.git"
+  },
+  "author": "triangle ops",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/robcperry/job-board/issues"
+  },
+  "homepage": "https://github.com/robcperry/job-board#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "heroku": "^7.60.2",
+    "mongodb": "^4.7.0"
+  }
+}
